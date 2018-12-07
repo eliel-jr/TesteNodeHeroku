@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET /users/listen listing. */
-router.get('/', function(req, res, next) {
+router.get('/listen', function(req, res, next) {
   res.send('Vamo dale pexeradaaaaa! frits');
 });
 
